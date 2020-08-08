@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        label{float: left; text-align: right; margin-right: 15px; width:100px}
+        input {border-style: ridge;}
+        textarea {border-style:dotted;}
+        </style>
+        </head>
+        <body>
+        <form action="https://learn.nucamp.co/show_everything.php." method="POST" enctype="multipart/form-data">
+            <label for="firstname">First Name:</label>
+            <input type="text" name="first name">
+            <br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname"></input>
+            <br>
+            <label for="email">email</label>
+            <input type="email">
+            <br>
+            <p>Please enter your address here.</p>
+            <textarea rows="5" cols="60"name="address">
+Please enter your address here
+                </textarea>
+                 <p>Please enter any feedback you have.</p>
+            <textarea rows="3" cols="60" name="feedback">Please enter your text here</textarea>
+            <br>
+            <input type="submit" value="Send">
+            
+        </form>
+    </body>
+</html>
+
